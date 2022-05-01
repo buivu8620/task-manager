@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 router(app);
 
 app.get("/", (req, res) => {
-  res.send("home");
+  res.send("Xin chao");
 });
 
 app.listen(port, () => {
